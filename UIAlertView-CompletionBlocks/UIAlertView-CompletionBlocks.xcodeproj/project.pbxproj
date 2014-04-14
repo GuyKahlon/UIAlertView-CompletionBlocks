@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		502E6E4C18F7E49500651052 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502E6E4B18F7E49500651052 /* Foundation.framework */; };
+		502E6E4E18F7E49500651052 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502E6E4D18F7E49500651052 /* CoreGraphics.framework */; };
+		502E6E5018F7E49500651052 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502E6E4F18F7E49500651052 /* UIKit.framework */; };
+		502E6E5618F7E49500651052 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 502E6E5418F7E49500651052 /* InfoPlist.strings */; };
+		502E6E5818F7E49500651052 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 502E6E5718F7E49500651052 /* main.m */; };
+		502E6E5C18F7E49500651052 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 502E6E5B18F7E49500651052 /* AppDelegate.m */; };
+		502E6E5F18F7E49500651052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 502E6E5D18F7E49500651052 /* Main.storyboard */; };
+		502E6E6218F7E49500651052 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 502E6E6118F7E49500651052 /* ViewController.m */; };
+		502E6E6418F7E49500651052 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 502E6E6318F7E49500651052 /* Images.xcassets */; };
+		502E6E6B18F7E49500651052 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502E6E6A18F7E49500651052 /* XCTest.framework */; };
+		502E6E6C18F7E49500651052 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502E6E4B18F7E49500651052 /* Foundation.framework */; };
+		502E6E6D18F7E49500651052 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 502E6E4F18F7E49500651052 /* UIKit.framework */; };
+		502E6E7518F7E49500651052 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 502E6E7318F7E49500651052 /* InfoPlist.strings */; };
+		502E6E7718F7E49500651052 /* UIAlertView_CompletionBlocksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 502E6E7618F7E49500651052 /* UIAlertView_CompletionBlocksTests.m */; };
+		502E6E8518F7EDD800651052 /* UIAlertView+CompletionBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 502E6E8418F7EDD800651052 /* UIAlertView+CompletionBlocks.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		502E6E6E18F7E49500651052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 502E6E4018F7E49500651052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 502E6E4718F7E49500651052;
+			remoteInfo = "UIAlertView-CompletionBlocks";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		502E6E4818F7E49500651052 /* UIAlertView-CompletionBlocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIAlertView-CompletionBlocks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		502E6E4B18F7E49500651052 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		502E6E4D18F7E49500651052 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		502E6E4F18F7E49500651052 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		502E6E5318F7E49500651052 /* UIAlertView-CompletionBlocks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIAlertView-CompletionBlocks-Info.plist"; sourceTree = "<group>"; };
+		502E6E5518F7E49500651052 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		502E6E5718F7E49500651052 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		502E6E5918F7E49500651052 /* UIAlertView-CompletionBlocks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertView-CompletionBlocks-Prefix.pch"; sourceTree = "<group>"; };
+		502E6E5A18F7E49500651052 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		502E6E5B18F7E49500651052 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		502E6E5E18F7E49500651052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		502E6E6018F7E49500651052 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		502E6E6118F7E49500651052 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		502E6E6318F7E49500651052 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		502E6E6918F7E49500651052 /* UIAlertView-CompletionBlocksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIAlertView-CompletionBlocksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		502E6E6A18F7E49500651052 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		502E6E7218F7E49500651052 /* UIAlertView-CompletionBlocksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIAlertView-CompletionBlocksTests-Info.plist"; sourceTree = "<group>"; };
+		502E6E7418F7E49500651052 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		502E6E7618F7E49500651052 /* UIAlertView_CompletionBlocksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAlertView_CompletionBlocksTests.m; sourceTree = "<group>"; };
+		502E6E8318F7EDD800651052 /* UIAlertView+CompletionBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+CompletionBlocks.h"; sourceTree = "<group>"; };
+		502E6E8418F7EDD800651052 /* UIAlertView+CompletionBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+CompletionBlocks.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		502E6E4518F7E49500651052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502E6E4E18F7E49500651052 /* CoreGraphics.framework in Frameworks */,
+				502E6E5018F7E49500651052 /* UIKit.framework in Frameworks */,
+				502E6E4C18F7E49500651052 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		502E6E6618F7E49500651052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502E6E6B18F7E49500651052 /* XCTest.framework in Frameworks */,
+				502E6E6D18F7E49500651052 /* UIKit.framework in Frameworks */,
+				502E6E6C18F7E49500651052 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		502E6E3F18F7E49500651052 = {
+			isa = PBXGroup;
+			children = (
+				502E6E8318F7EDD800651052 /* UIAlertView+CompletionBlocks.h */,
+				502E6E8418F7EDD800651052 /* UIAlertView+CompletionBlocks.m */,
+				502E6E5118F7E49500651052 /* UIAlertView-CompletionBlocks */,
+				502E6E7018F7E49500651052 /* UIAlertView-CompletionBlocksTests */,
+				502E6E4A18F7E49500651052 /* Frameworks */,
+				502E6E4918F7E49500651052 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		502E6E4918F7E49500651052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				502E6E4818F7E49500651052 /* UIAlertView-CompletionBlocks.app */,
+				502E6E6918F7E49500651052 /* UIAlertView-CompletionBlocksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		502E6E4A18F7E49500651052 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				502E6E4B18F7E49500651052 /* Foundation.framework */,
+				502E6E4D18F7E49500651052 /* CoreGraphics.framework */,
+				502E6E4F18F7E49500651052 /* UIKit.framework */,
+				502E6E6A18F7E49500651052 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		502E6E5118F7E49500651052 /* UIAlertView-CompletionBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				502E6E5A18F7E49500651052 /* AppDelegate.h */,
+				502E6E5B18F7E49500651052 /* AppDelegate.m */,
+				502E6E5D18F7E49500651052 /* Main.storyboard */,
+				502E6E6018F7E49500651052 /* ViewController.h */,
+				502E6E6118F7E49500651052 /* ViewController.m */,
+				502E6E6318F7E49500651052 /* Images.xcassets */,
+				502E6E5218F7E49500651052 /* Supporting Files */,
+			);
+			path = "UIAlertView-CompletionBlocks";
+			sourceTree = "<group>";
+		};
+		502E6E5218F7E49500651052 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				502E6E5318F7E49500651052 /* UIAlertView-CompletionBlocks-Info.plist */,
+				502E6E5418F7E49500651052 /* InfoPlist.strings */,
+				502E6E5718F7E49500651052 /* main.m */,
+				502E6E5918F7E49500651052 /* UIAlertView-CompletionBlocks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		502E6E7018F7E49500651052 /* UIAlertView-CompletionBlocksTests */ = {
+			isa = PBXGroup;
+			children = (
+				502E6E7618F7E49500651052 /* UIAlertView_CompletionBlocksTests.m */,
+				502E6E7118F7E49500651052 /* Supporting Files */,
+			);
+			path = "UIAlertView-CompletionBlocksTests";
+			sourceTree = "<group>";
+		};
+		502E6E7118F7E49500651052 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				502E6E7218F7E49500651052 /* UIAlertView-CompletionBlocksTests-Info.plist */,
+				502E6E7318F7E49500651052 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		502E6E4718F7E49500651052 /* UIAlertView-CompletionBlocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 502E6E7A18F7E49500651052 /* Build configuration list for PBXNativeTarget "UIAlertView-CompletionBlocks" */;
+			buildPhases = (
+				502E6E4418F7E49500651052 /* Sources */,
+				502E6E4518F7E49500651052 /* Frameworks */,
+				502E6E4618F7E49500651052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIAlertView-CompletionBlocks";
+			productName = "UIAlertView-CompletionBlocks";
+			productReference = 502E6E4818F7E49500651052 /* UIAlertView-CompletionBlocks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		502E6E6818F7E49500651052 /* UIAlertView-CompletionBlocksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 502E6E7D18F7E49500651052 /* Build configuration list for PBXNativeTarget "UIAlertView-CompletionBlocksTests" */;
+			buildPhases = (
+				502E6E6518F7E49500651052 /* Sources */,
+				502E6E6618F7E49500651052 /* Frameworks */,
+				502E6E6718F7E49500651052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				502E6E6F18F7E49500651052 /* PBXTargetDependency */,
+			);
+			name = "UIAlertView-CompletionBlocksTests";
+			productName = "UIAlertView-CompletionBlocksTests";
+			productReference = 502E6E6918F7E49500651052 /* UIAlertView-CompletionBlocksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		502E6E4018F7E49500651052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = GuyKahlon;
+				TargetAttributes = {
+					502E6E6818F7E49500651052 = {
+						TestTargetID = 502E6E4718F7E49500651052;
+					};
+				};
+			};
+			buildConfigurationList = 502E6E4318F7E49500651052 /* Build configuration list for PBXProject "UIAlertView-CompletionBlocks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 502E6E3F18F7E49500651052;
+			productRefGroup = 502E6E4918F7E49500651052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				502E6E4718F7E49500651052 /* UIAlertView-CompletionBlocks */,
+				502E6E6818F7E49500651052 /* UIAlertView-CompletionBlocksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		502E6E4618F7E49500651052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502E6E6418F7E49500651052 /* Images.xcassets in Resources */,
+				502E6E5618F7E49500651052 /* InfoPlist.strings in Resources */,
+				502E6E5F18F7E49500651052 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		502E6E6718F7E49500651052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502E6E7518F7E49500651052 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		502E6E4418F7E49500651052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502E6E6218F7E49500651052 /* ViewController.m in Sources */,
+				502E6E8518F7EDD800651052 /* UIAlertView+CompletionBlocks.m in Sources */,
+				502E6E5C18F7E49500651052 /* AppDelegate.m in Sources */,
+				502E6E5818F7E49500651052 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		502E6E6518F7E49500651052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502E6E7718F7E49500651052 /* UIAlertView_CompletionBlocksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		502E6E6F18F7E49500651052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 502E6E4718F7E49500651052 /* UIAlertView-CompletionBlocks */;
+			targetProxy = 502E6E6E18F7E49500651052 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		502E6E5418F7E49500651052 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				502E6E5518F7E49500651052 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		502E6E5D18F7E49500651052 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				502E6E5E18F7E49500651052 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		502E6E7318F7E49500651052 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				502E6E7418F7E49500651052 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		502E6E7818F7E49500651052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		502E6E7918F7E49500651052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		502E6E7B18F7E49500651052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIAlertView-CompletionBlocks/UIAlertView-CompletionBlocks-Prefix.pch";
+				INFOPLIST_FILE = "UIAlertView-CompletionBlocks/UIAlertView-CompletionBlocks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		502E6E7C18F7E49500651052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIAlertView-CompletionBlocks/UIAlertView-CompletionBlocks-Prefix.pch";
+				INFOPLIST_FILE = "UIAlertView-CompletionBlocks/UIAlertView-CompletionBlocks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		502E6E7E18F7E49500651052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIAlertView-CompletionBlocks.app/UIAlertView-CompletionBlocks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIAlertView-CompletionBlocks/UIAlertView-CompletionBlocks-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UIAlertView-CompletionBlocksTests/UIAlertView-CompletionBlocksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		502E6E7F18F7E49500651052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIAlertView-CompletionBlocks.app/UIAlertView-CompletionBlocks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIAlertView-CompletionBlocks/UIAlertView-CompletionBlocks-Prefix.pch";
+				INFOPLIST_FILE = "UIAlertView-CompletionBlocksTests/UIAlertView-CompletionBlocksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		502E6E4318F7E49500651052 /* Build configuration list for PBXProject "UIAlertView-CompletionBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				502E6E7818F7E49500651052 /* Debug */,
+				502E6E7918F7E49500651052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		502E6E7A18F7E49500651052 /* Build configuration list for PBXNativeTarget "UIAlertView-CompletionBlocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				502E6E7B18F7E49500651052 /* Debug */,
+				502E6E7C18F7E49500651052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		502E6E7D18F7E49500651052 /* Build configuration list for PBXNativeTarget "UIAlertView-CompletionBlocksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				502E6E7E18F7E49500651052 /* Debug */,
+				502E6E7F18F7E49500651052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 502E6E4018F7E49500651052 /* Project object */;
+}
